@@ -1,0 +1,18 @@
+### CADASTRAR FOLHA DE PAGAMENTO 
+POST https://localhost:5001/api/folha/cadastrar
+Content-Type: application/json
+
+{
+    "funcionarioid": 1, 
+    "valorhora": 50, 
+    "quantidadehoras": 100
+}
+
+### LISTAR FOLHAS DE PAGAMENTO
+GET https://localhost:5001/api/folha/listar
+
+### BUSCAR 
+GET https://localhost:5001/api/folha/buscar/12312312312/9/2022
+
+### FILTRAR
+GET https://localhost:5001/api/folha/filtrar/9/2022
